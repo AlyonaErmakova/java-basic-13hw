@@ -9,6 +9,8 @@ public class LeapYearHard {
         printLeapYear(2025); // не распечатается
     }
 
+
+    // программа проверяет: является год високосным или нет, сложным способом.
     public static void printLeapYear(int year) {
         if (leapYear(year)) System.out.println(year + "- високосный год");
     }

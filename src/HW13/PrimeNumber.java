@@ -5,6 +5,7 @@ public class PrimeNumber {
     public static void main(String[] args) {
         printPrimeNumber(100);
     }
+    // программа находит простые числа в диапазоне от 2 до range.
 
     public static void printPrimeNumber(int range) {
         for (int i = 2; i < range; i++) {
